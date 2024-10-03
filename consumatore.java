@@ -18,7 +18,7 @@ public class consumatore extends Thread{
 		while(true) {
 			try {
 				val=b.rim();
-				if(val!=-2000) {
+				if(val!=-2000) {  //legge il valore del buffer che se è -2000 significa che non è stato letto alcun valore
 					if(val%2==0) {
 						pari++;
 					}else {
